@@ -15,8 +15,8 @@ export default function Home() {
     <Navbar/>
     <section className="main-section">
       <div className='page-heading py-13'>
-        <h1>Your Resume’s Best Mate For Success...</h1>
-        <h2>Review Your Resumes And Get Instant Feedbacks!</h2>
+        <h1 className="animate-in slide-in-from-left duration-3000">Your Resume’s Best Mate For Success...</h1>
+        <h2 className="animate-in slide-in-from-right duration-4000">Review Your Resumes And Get Instant Feedbacks!</h2>
 
       </div>
 
