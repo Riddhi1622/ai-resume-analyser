@@ -31,7 +31,7 @@ const FileUploader = ({ file, onFileSelect }: FileUploaderProps) => {
     <div className="w-full gradient-border">
       {/* Show uploaded file */}
       {file ? (
-        <div className="uploader-selected-file flex items-center justify-between px-4 py-2 border rounded bg-white">
+        <div className="uploader-selected-file flex items-center justify-between px-4 py-2  rounded bg-white">
           <div className="flex items-center space-x-3">
             <img src="/images/pdf.png" alt="pdf" className="size-10" />
             <div>
@@ -53,7 +53,7 @@ const FileUploader = ({ file, onFileSelect }: FileUploaderProps) => {
         </div>
       ) : (
         // Only render dropzone when no file is selected
-        <div {...getRootProps()} className="cursor-pointer text-center rounded ">
+        <div {...getRootProps()} >
           <input {...getInputProps()} />
           <div className="space-y-2">
             <div className="mx-auto w-16 h-16 flex items-center justify-center mb-2">
